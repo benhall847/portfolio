@@ -7045,7 +7045,7 @@ License - nucleoapp.com/license/
 
 .terminal {
   height:300px;
-  width:90vw;
+  width:80vw;
   overflow:auto; 
   display:flex; 
   flex-direction:column-reverse;
