@@ -21,7 +21,7 @@ var main = (function () {
             help_help: "Print this menu.",
             clear_help: "Clear the terminal screen.",
             reboot_help: "Reboot the system.",
-            welcome: "Hello! Welcome to my about_me page. \n Either execute the 'help' command or use the sidenav at your top right.\nIn order to skip text rolling, double click/touch anywhere.",
+            welcome: "Hello! Welcome to my about_me page. \n Either execute the 'help' command or for mobile users, use sidenav at your top right.\nIn order to skip text rolling, double click/touch anywhere.",
             internet_explorer_warning: "NOTE: I see you're using internet explorer, this website won't work properly.",
             welcome_file_name: "welcome_message.txt",
             invalid_command_message: "<value>: command not found.",
