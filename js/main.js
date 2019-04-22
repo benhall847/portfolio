@@ -58,10 +58,10 @@ var main = (function () {
             }
         };
         Singleton.defaultOptions = {
-            "aboutMe.txt": "My name is Benjamin Hallquist. I grew up in Kansas City, Missouri.\nAfter graduating highschool I lived in Ecuador for 4 years.\n While living in Ecuador, I worked as a resort manager for a family resort. I was also a \nfree-lancer of wireless & security networking for commercial & residential buildings.\nIn my free time I like to study, design and build alternative energy systems. \nMy favorite system is a wood gasifier.",
-            "hobbies.txt": "Computers & Technology\nAlternative Energy\nCinematography\nFiancée\nSouth America\nSustainable living",
+
             "contact.txt": "benhall84707@gmail.com",
-            "github.txt": "https://github.com/benhall847",
+            "hobbies.txt": "Computers & Technology\nAlternative Energy\nCinematography\nFiancée\nSouth America\nSustainable living",
+            "aboutMe.txt": "My name is Benjamin Hallquist. I grew up in Kansas City, Missouri.\nAfter graduating highschool I lived in Ecuador for 4 years.\n While living in Ecuador, I worked as a resort manager for a family resort. I was also a \nfree-lancer of wireless & security networking for commercial & residential buildings.\nIn my free time I like to study, design and build alternative energy systems. \nMy favorite system is a wood gasifier.",
         };
         return {
             getInstance: function (options) {
@@ -221,7 +221,7 @@ var main = (function () {
             element.appendChild(document.createTextNode(capFirst(file.replace(/\.[^/.]+$/, "").replace(/_/g, " "))));
             li.appendChild(element);
             li.classList.add("nav-item");
-            mySidenav.appendChild(li);
+            mySidenav.prepend(li);
             this.sidenavElements.push(element);
         }
         // Shouldn't use document.getElementById but Terminal is already using loads of params
