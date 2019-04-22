@@ -6769,6 +6769,15 @@ License - nucleoapp.com/license/
 .owner {
   text-align: center;
 }
+.owner2{
+  width: 100vw;
+  margin: -78vh 0px 53vh;
+  position: relative;
+  z-index: 3;
+}
+.owner-none{
+  visibility: hidden;
+}
 
 .owner .avatar {
   padding: 15px;
