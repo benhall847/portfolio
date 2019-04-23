@@ -7049,6 +7049,7 @@ License - nucleoapp.com/license/
   overflow:auto; 
   display:flex; 
   flex-direction:column-reverse;
+  background-color:rgba(0, 0, 0, .7);
 }
 
 @media all and (-ms-high-contrast: none),
