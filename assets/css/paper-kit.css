@@ -7717,7 +7717,6 @@ License - nucleoapp.com/license/
   .navbar-collapse ul {
     position: relative;
     z-index: 3;
-    height: 95%;
   }
   .navbar-collapse .navbar-nav>.nav-item:last-child {
     border-bottom: 0;
