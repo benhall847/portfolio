@@ -40,7 +40,7 @@ var main = (function () {
             host: "aboutBen.com",
             user: "guest",
             is_root: false,
-            type_delay: 10
+            type_delay: 25
         };
         return {
             getInstance: function (options) {
@@ -181,7 +181,6 @@ var main = (function () {
         this.prepareSideNav();
         this.lock(); // Need to lock here since the sidenav elements were just added
         const terminal = document.getElementsByClassName('terminal-container');
-        console.log(terminal[0]);
         terminal[0].addEventListener("click", this.focus.bind(this));
         this.cmdLine.addEventListener("keydown", function (event) {
             if (event.which === 13 || event.keyCode === 13) {
@@ -205,7 +204,6 @@ var main = (function () {
             }
         })();
         for (var file in files.getInstance()) {
-            console.log(file)
             let mySidenav = document.getElementById("sidenav");
             var element = document.createElement("button");
             let li = document.createElement("li");
