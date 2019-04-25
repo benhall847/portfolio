@@ -6796,7 +6796,7 @@ License - nucleoapp.com/license/
 
 .owner .avatar {
   padding: 15px;
-  max-width: 30vh;
+  max-width: 32vh;
   margin: 0 auto 0;
   display: inline-block;
 }
@@ -7068,7 +7068,7 @@ License - nucleoapp.com/license/
 }
 
 .terminal {
-  height:300px;
+  height:30vh;
   min-width:100%;
   overflow:scroll; 
   display:flex; 
@@ -8104,7 +8104,7 @@ License - nucleoapp.com/license/
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
-  background-color: #EEEEEE;
+  background-color: rgb(213, 205, 189);
 }
 .height-min{
   min-height:370px;

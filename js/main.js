@@ -37,10 +37,10 @@ var main = (function () {
             accesible_cores: "Accessible cores",
             language: "Language",
             value_token: "<value>",
-            host: "aboutBen.com",
+            host: "bugbyte.dev",
             user: "guest",
             is_root: false,
-            type_delay: 25
+            type_delay: 40
         };
         return {
             getInstance: function (options) {
@@ -61,7 +61,7 @@ var main = (function () {
 
             "contact.txt": "benhall84707@gmail.com\n(601)-699-2739",
             "hobbies.txt": "Computers & Technology\nAlternative Energy\nCinematography\nFiancée\nSouth America\nSustainable living",
-            "aboutMe.txt": "My name is Benjamin Hallquist. I grew up in Kansas City, Missouri.\nAfter graduating highschool I lived in Ecuador for 4 years.\n While living in Ecuador, I worked as a resort manager for a family resort. I was also a \nfree-lancer of wireless & security networking for commercial & residential buildings.\nIn my free time I like to study, design and build alternative energy systems. \nMy favorite system is a wood gasifier.",
+            "aboutMe.txt": "My name is Benjamin Hallquist.\nI grew up in Kansas City, Missouri.\nAfter graduating highschool I lived in Ecuador for 4 years.\nWhile living in Ecuador, I worked as a resort manager for a family resort.\nI was also a free-lancer of wireless & security networking for commercial & residential buildings.\nIn my free time I like to study, design and build alternative energy systems.\nMy favorite system is a wood gasifier.",
         };
         return {
             getInstance: function (options) {
