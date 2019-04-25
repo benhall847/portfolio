@@ -24,6 +24,13 @@
  * Copyright 2012-2013 Mattia Larentis
  * http://www.apache.org/licenses/LICENSE-2.0
  */
+ * {
+  box-sizing: border-box;
+}
+  body, html {
+  margin: 0 auto;
+  padding: 0;
+}
 
  .bootstrap-switch {
   display: inline-block;
@@ -546,23 +553,40 @@
   width: 16em;
 }
 
+
+@media (min-width: 576px){
+  .container {
+      max-width: 100%;
+  }
+}
+
 @media (min-width: 768px) {
   .bootstrap-datetimepicker-widget.dropdown-menu.timepicker-sbs {
     width: 38em;
   }
+  .container {
+    max-width: 100%;
+}
 }
 
 @media (min-width: 992px) {
   .bootstrap-datetimepicker-widget.dropdown-menu.timepicker-sbs {
     width: 38em;
   }
+  .container {
+    width: 100%;
+}
 }
 
 @media (min-width: 1200px) {
   .bootstrap-datetimepicker-widget.dropdown-menu.timepicker-sbs {
     width: 38em;
   }
+  .container {
+    width: 100%;
 }
+}
+
 
 .bootstrap-datetimepicker-widget.dropdown-menu.bottom:before {
   border-bottom: 11px solid #F1EAE0;
@@ -6499,6 +6523,7 @@ License - nucleoapp.com/license/
 }
 
 .card-big-shadow:before {
+  background-image: url("http://static.tumblr.com/i21wc39/coTmrkw40/shadow.png");
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -6771,8 +6796,8 @@ License - nucleoapp.com/license/
 
 .owner .avatar {
   padding: 15px;
-  max-width: 180px;
-  margin: -85px auto 0;
+  max-width: 30vh;
+  margin: 0 auto 0;
   display: inline-block;
 }
 
@@ -7044,11 +7069,18 @@ License - nucleoapp.com/license/
 
 .terminal {
   height:300px;
-  width:80vw;
-  overflow:auto; 
+  min-width:100%;
+  overflow:scroll; 
   display:flex; 
   flex-direction:column-reverse;
   background-color:rgba(0, 0, 0, .7);
+}
+.super-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-width:55vw;
+
 }
 
 @media all and (-ms-high-contrast: none),
