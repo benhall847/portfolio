@@ -7068,9 +7068,10 @@ License - nucleoapp.com/license/
 }
 
 .terminal {
-  height:30vh;
+  height:33vh;
   min-width:100%;
   overflow:scroll; 
+  margin-bottom: 10vh;
   display:flex; 
   flex-direction:column-reverse;
   background-color:rgba(0, 0, 0, .7);
