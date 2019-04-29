@@ -227,8 +227,24 @@ var main = (function () {
     };
 
     Terminal.prototype.handleSidenav = function (event) {
-
-        ignoreEvent(event);
+    $(document).on('click', '.navbar-toggler', function() {
+        $toggle = $(this);
+    });
+    
+    if (pk.misc.navbar_menu_visible == 1) {
+        $('html').removeClass('nav-open');
+        pk.misc.navbar_menu_visible = 0;
+        $('#bodyClick').remove();
+        setTimeout(function() {
+            $toggle.removeClass('toggled');
+        }, 550);
+    } else {
+        setTimeout(function() {
+            $toggle.addClass('toggled');
+        }, 580);
+        
+    }
+    event.preventDefault() 
     };
 
     Terminal.prototype.lock = function () {
