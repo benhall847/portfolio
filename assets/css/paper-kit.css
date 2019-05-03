@@ -6003,6 +6003,10 @@ License - nucleoapp.com/license/
   transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
 }
 
+.skills-card{
+  margin-bottom:0px;
+}
+
 .card:not(.card-plain):hover {
   box-shadow: 0px 12px 19px -7px rgba(0, 0, 0, 0.3);
   transform: translateY(-10px);
@@ -6044,7 +6048,7 @@ License - nucleoapp.com/license/
 }
 
 .card[data-radius="none"] {
-  border-radius: 40%;
+  border-radius: 20%;
 }
 
 .card[data-radius="none"] .header {
@@ -6966,6 +6970,11 @@ License - nucleoapp.com/license/
 .section-brown {
   background-color: #A59E94;
   color: #FFFFFF;
+  border-radius: 10%;
+}
+.section-background {
+  background: url('../img/blurred-background-1.jpg');
+   
 }
 
 .section-light-blue {
